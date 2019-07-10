@@ -1,0 +1,41 @@
+getting start:
+./bin/QtSim.exe
+
+extract *.zip in input dir to output dir:
+Tools->Extract
+
+new task to start your comparison:
+File -> New
+Set the input dir, set the SSim parameters.
+Please be really careful to set temp and output dir, because Tools -> Clean will
+delete everything in temp and output dir.
+
+compute the text simlarity:
+doTSim
+The simliarest target project will be recorded. This function is supported by
+sim_*.exe.
+
+compute the structure simlartity:
+doSSim
+The simliarest target project will be recorded.
+
+see detail of one project about TSim:
+right-click on the project -> Detail
+Note that you cannot see detail before TSim is done, because QtSim do not konw which
+project should be compared to the project you choose. The program will remind you
+about that when you right-click -> Detail, when the TSim is not compeleted.
+
+exit: (this is the way I recommand to exit)
+File -> Exit
+
+to extact *.zip in a dir:
+Tools -> Extract
+Set the input and output dir, set the extract options (I recommad you to use
+rename-new-files option). This function is supported by 7Zip.
+
+It is possible that TSim and SSim will take a long time to run when inputs
+are large in size or number, as well as occupiing a large space (memory).
+Under that situation, if you click doTSim or doSSim or Detail or something else,
+even including exiting the project. You will wait till the current step is done,
+an then the next step will be processed. So it looks like a queue, even you chose to exit, as the GUI is invisiable then, it will be still keep working until the
+current step is done.
