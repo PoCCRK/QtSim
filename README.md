@@ -1,7 +1,7 @@
 # QtSim
 a code lexical similarity tester
 
-Contact me(Liang DaHao) for support: 353984017@qq.com
+Contact me for support: 353984017@qq.com
 
 QtSim is developed under Qt, so it is under (L)GPLv3.
 In that case, the use and copyright is under (L)GPLv3 too.
